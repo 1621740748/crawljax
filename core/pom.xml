@@ -37,6 +37,17 @@
 
 	<dependencies>
 		<dependency>
+		     <groupId>com.sun.xml.fastinfoset</groupId>
+		     <artifactId>FastInfoset</artifactId>
+		     <version>1.2.16</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>com.sun.istack</groupId>
+		    <artifactId>istack-commons-runtime</artifactId>
+		    <version>3.0.8</version>
+		</dependency>
+		<dependency>
 			<groupId>commons-math</groupId>
 			<artifactId>commons-math</artifactId>
 			<version>1.2</version>
